@@ -35,7 +35,7 @@ ul {
 	list-style-type: none;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-inline-start: 0px;
+	padding: 0px;
 }
 
 img {
@@ -669,6 +669,11 @@ hero-button:focus {
 
 .adress-link {
 	color: var(--secondary-f-lightgrey-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+	color: var(--accent-blue-color);
 }
 
 .social-block {
